@@ -6,7 +6,9 @@ orbs:
 workflows:
   test: 
     jobs:
-      - test
+      - test:
+          context:
+            - context-test
 
 
 jobs:
